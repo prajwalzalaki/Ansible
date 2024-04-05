@@ -1,0 +1,4 @@
+- name: Clone repository
+  ansible.builtin.git:
+          repo: https://github.com/prajwalzalaki/Demo.git
+          dest: /var/www/html/

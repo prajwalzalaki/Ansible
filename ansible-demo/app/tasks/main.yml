@@ -1,0 +1,4 @@
+---
+# tasks file for app
+- include_tasks : install-apache.yml
+- include_tasks : deploy.yml
